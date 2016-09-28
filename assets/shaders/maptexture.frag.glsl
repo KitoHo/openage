@@ -1,11 +1,9 @@
-#version 120
-
 //total basic standard texture drawing fragment shader
 
 //the texture data
 uniform sampler2D texture;
 
-//interpolated texture coordinates recieved from vertex shader
+//interpolated texture coordinates received from vertex shader
 varying vec2 tex_position;
 
 void main (void) {
